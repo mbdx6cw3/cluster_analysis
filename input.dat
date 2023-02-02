@@ -1,0 +1,12 @@
+&input
+start_frame = 1 		! initial frame to analyse
+end_frame   = 1		    ! final frame to analyse
+space_frame = 1			! spacing between frames to be analysed
+dt          = 1.0d0		! time between frames (ns)
+n_mol 	    = 40		! number of molecules
+n_typ	    = 8			! number of atom types
+n_bin       = 200		! number of bins used in radial distribution function
+rdf_max     = 5.0d0		! maximum distance for RDF calculation
+cluster_cut = 1.25d0		! distance criterion for clustering
+out_style   = 1			! 0 = standard, 1 = write all clusters
+/

@@ -1,0 +1,4 @@
+&atoms
+type        = 'Zr' ' P' 'OS' 'O2' ' C' ' H' ' N' ' O' ! list of atom types in molecules
+mass        = 91.224 30.974 15.999 15.999 12.011 1.008 14.007 15.999 ! mass of atoms corresponding to above types
+/
